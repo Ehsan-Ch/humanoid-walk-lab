@@ -1,0 +1,3337 @@
+{
+  "created_utc": "2026-10-15T08:46:08.168852+00:00",
+  "duration_s": 12,
+  "success_definition": "No fall for the full horizon; mean speed 0.25\u20131.2 m/s; at least 8 alternating landings and 4 landings per foot after >=40 ms airborne.",
+  "policy_sha256": "f1f860167b15cbd7b1b60c72003b02f050ad5076a61bbe469abfbea74a1bbd9b",
+  "model_sha256": "a8a6530892dc007eae5a1d7f4d45a8f24ecc06a1d6badb69f371bd1052cad29a",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "mujoco": "3.3.7",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "training": {
+    "algorithm": "CEM",
+    "seed": 42,
+    "training_seeds": [
+      11,
+      22
+    ],
+    "seconds": 6,
+    "population": 48,
+    "score": 10.014103210226878,
+    "history": [
+      {
+        "generation": 1,
+        "best_score": 2.7292012629884015,
+        "population_median": 0.6633502553926731,
+        "generation_best": 2.7292012629884015,
+        "elite_duration": 3.5349999999998323,
+        "elite_speed": 0.15590017190150623,
+        "elapsed_seconds": 1.1715355999999701
+      },
+      {
+        "generation": 2,
+        "best_score": 9.32069399700999,
+        "population_median": 0.9433788481806489,
+        "generation_best": 9.32069399700999,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5944450708875058,
+        "elapsed_seconds": 1.8687271000001147
+      },
+      {
+        "generation": 3,
+        "best_score": 9.32069399700999,
+        "population_median": 1.0325714533959818,
+        "generation_best": 9.32069399700999,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5944450708875058,
+        "elapsed_seconds": 2.5674639000001207
+      },
+      {
+        "generation": 4,
+        "best_score": 9.32069399700999,
+        "population_median": 1.1039114055119061,
+        "generation_best": 9.32069399700999,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5944450708875058,
+        "elapsed_seconds": 3.4132610000001478
+      },
+      {
+        "generation": 5,
+        "best_score": 9.32069399700999,
+        "population_median": 1.2627469509906075,
+        "generation_best": 9.32069399700999,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5944450708875058,
+        "elapsed_seconds": 4.415704200000164
+      },
+      {
+        "generation": 6,
+        "best_score": 9.32069399700999,
+        "population_median": 1.4316283872161704,
+        "generation_best": 9.32069399700999,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5944450708875058,
+        "elapsed_seconds": 5.479968999999983
+      },
+      {
+        "generation": 7,
+        "best_score": 9.32069399700999,
+        "population_median": 1.731500345174656,
+        "generation_best": 9.32069399700999,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5944450708875058,
+        "elapsed_seconds": 6.73351260000004
+      },
+      {
+        "generation": 8,
+        "best_score": 9.32069399700999,
+        "population_median": 2.5783895273917525,
+        "generation_best": 9.32069399700999,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5944450708875058,
+        "elapsed_seconds": 8.180976200000032
+      },
+      {
+        "generation": 9,
+        "best_score": 9.735599359866322,
+        "population_median": 5.529016893689821,
+        "generation_best": 9.735599359866322,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5347386659745315,
+        "elapsed_seconds": 10.07972380000001
+      },
+      {
+        "generation": 10,
+        "best_score": 9.735599359866322,
+        "population_median": 6.814282517258445,
+        "generation_best": 9.735599359866322,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5347386659745315,
+        "elapsed_seconds": 11.740202700000054
+      },
+      {
+        "generation": 11,
+        "best_score": 9.735599359866322,
+        "population_median": 8.158532158936566,
+        "generation_best": 9.735599359866322,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5347386659745315,
+        "elapsed_seconds": 13.619504400000096
+      },
+      {
+        "generation": 12,
+        "best_score": 9.735599359866322,
+        "population_median": 8.04848327712594,
+        "generation_best": 9.735599359866322,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5347386659745315,
+        "elapsed_seconds": 15.444315700000061
+      },
+      {
+        "generation": 13,
+        "best_score": 9.735599359866322,
+        "population_median": 8.57215432494562,
+        "generation_best": 9.735599359866322,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5347386659745315,
+        "elapsed_seconds": 17.30477330000008
+      },
+      {
+        "generation": 14,
+        "best_score": 9.735599359866322,
+        "population_median": 8.802412482401422,
+        "generation_best": 9.735599359866322,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5347386659745315,
+        "elapsed_seconds": 19.051738399999977
+      },
+      {
+        "generation": 15,
+        "best_score": 9.788637078912474,
+        "population_median": 8.718188627400227,
+        "generation_best": 9.788637078912474,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5800455783307065,
+        "elapsed_seconds": 20.604815300000155
+      },
+      {
+        "generation": 16,
+        "best_score": 9.788637078912474,
+        "population_median": 8.392896240848998,
+        "generation_best": 9.788637078912474,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5800455783307065,
+        "elapsed_seconds": 22.556357700000035
+      },
+      {
+        "generation": 17,
+        "best_score": 9.792811141752098,
+        "population_median": 8.396367278931034,
+        "generation_best": 9.792811141752098,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5484580519094275,
+        "elapsed_seconds": 24.427714700000024
+      },
+      {
+        "generation": 18,
+        "best_score": 9.792811141752098,
+        "population_median": 8.751605062090968,
+        "generation_best": 9.792811141752098,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5484580519094275,
+        "elapsed_seconds": 26.42291750000004
+      },
+      {
+        "generation": 19,
+        "best_score": 9.792811141752098,
+        "population_median": 8.793480130487874,
+        "generation_best": 9.792811141752098,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5484580519094275,
+        "elapsed_seconds": 28.49353340000016
+      },
+      {
+        "generation": 20,
+        "best_score": 9.792811141752098,
+        "population_median": 8.708519960584393,
+        "generation_best": 9.792811141752098,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5484580519094275,
+        "elapsed_seconds": 30.669391300000143
+      },
+      {
+        "generation": 21,
+        "best_score": 9.792811141752098,
+        "population_median": 8.642146699623567,
+        "generation_best": 9.792811141752098,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5484580519094275,
+        "elapsed_seconds": 32.726238100000046
+      },
+      {
+        "generation": 22,
+        "best_score": 9.792811141752098,
+        "population_median": 8.811436950596352,
+        "generation_best": 9.792811141752098,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5484580519094275,
+        "elapsed_seconds": 34.74545180000018
+      },
+      {
+        "generation": 23,
+        "best_score": 9.792811141752098,
+        "population_median": 9.088292278430195,
+        "generation_best": 9.792811141752098,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5484580519094275,
+        "elapsed_seconds": 37.060960900000055
+      },
+      {
+        "generation": 24,
+        "best_score": 9.87101063746726,
+        "population_median": 8.76309965410551,
+        "generation_best": 9.87101063746726,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5729917345500959,
+        "elapsed_seconds": 39.0506249
+      },
+      {
+        "generation": 25,
+        "best_score": 9.87101063746726,
+        "population_median": 8.74846978354643,
+        "generation_best": 9.87101063746726,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5729917345500959,
+        "elapsed_seconds": 40.85975070000018
+      },
+      {
+        "generation": 26,
+        "best_score": 9.87101063746726,
+        "population_median": 8.602601578447434,
+        "generation_best": 9.87101063746726,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5729917345500959,
+        "elapsed_seconds": 42.80952450000018
+      },
+      {
+        "generation": 27,
+        "best_score": 9.88353549884788,
+        "population_median": 8.982546002552454,
+        "generation_best": 9.88353549884788,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5594476846119818,
+        "elapsed_seconds": 44.716504500000156
+      },
+      {
+        "generation": 28,
+        "best_score": 9.88353549884788,
+        "population_median": 9.093616799767677,
+        "generation_best": 9.88353549884788,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5594476846119818,
+        "elapsed_seconds": 47.04144680000013
+      },
+      {
+        "generation": 29,
+        "best_score": 9.88353549884788,
+        "population_median": 9.432702200747546,
+        "generation_best": 9.88353549884788,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5594476846119818,
+        "elapsed_seconds": 49.093977300000006
+      },
+      {
+        "generation": 30,
+        "best_score": 9.88353549884788,
+        "population_median": 9.165223979163908,
+        "generation_best": 9.88353549884788,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5594476846119818,
+        "elapsed_seconds": 51.074575400000185
+      },
+      {
+        "generation": 31,
+        "best_score": 9.912028919684275,
+        "population_median": 9.310781556665889,
+        "generation_best": 9.912028919684275,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5532488118452705,
+        "elapsed_seconds": 53.082187800000156
+      },
+      {
+        "generation": 32,
+        "best_score": 9.912028919684275,
+        "population_median": 8.7359405005794,
+        "generation_best": 9.912028919684275,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5532488118452705,
+        "elapsed_seconds": 55.348330900000065
+      },
+      {
+        "generation": 33,
+        "best_score": 9.979638410463057,
+        "population_median": 8.818439356223166,
+        "generation_best": 9.979638410463057,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5534815679333293,
+        "elapsed_seconds": 57.69988239999998
+      },
+      {
+        "generation": 34,
+        "best_score": 9.979638410463057,
+        "population_median": 8.688087762827688,
+        "generation_best": 9.979638410463057,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5534815679333293,
+        "elapsed_seconds": 60.46838270000012
+      },
+      {
+        "generation": 35,
+        "best_score": 9.979638410463057,
+        "population_median": 9.039682560275832,
+        "generation_best": 9.979638410463057,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5534815679333293,
+        "elapsed_seconds": 62.899486700000125
+      },
+      {
+        "generation": 36,
+        "best_score": 9.979638410463057,
+        "population_median": 9.26655427304412,
+        "generation_best": 9.979638410463057,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5534815679333293,
+        "elapsed_seconds": 65.43128339999998
+      },
+      {
+        "generation": 37,
+        "best_score": 9.98487216900153,
+        "population_median": 9.3289850093886,
+        "generation_best": 9.98487216900153,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5751099083908886,
+        "elapsed_seconds": 67.89885780000009
+      },
+      {
+        "generation": 38,
+        "best_score": 9.98487216900153,
+        "population_median": 8.8526834059311,
+        "generation_best": 9.98487216900153,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5751099083908886,
+        "elapsed_seconds": 70.19231120000018
+      },
+      {
+        "generation": 39,
+        "best_score": 9.98487216900153,
+        "population_median": 9.192006221495758,
+        "generation_best": 9.98487216900153,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5751099083908886,
+        "elapsed_seconds": 72.5047085000001
+      },
+      {
+        "generation": 40,
+        "best_score": 9.98487216900153,
+        "population_median": 9.02252985817792,
+        "generation_best": 9.98487216900153,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5751099083908886,
+        "elapsed_seconds": 74.94870070000002
+      },
+      {
+        "generation": 41,
+        "best_score": 9.988936515413823,
+        "population_median": 8.012416288984006,
+        "generation_best": 9.988936515413823,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5880588568734955,
+        "elapsed_seconds": 77.49805579999997
+      },
+      {
+        "generation": 42,
+        "best_score": 9.988936515413823,
+        "population_median": 8.727267047204975,
+        "generation_best": 9.988936515413823,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5880588568734955,
+        "elapsed_seconds": 79.73758889999999
+      },
+      {
+        "generation": 43,
+        "best_score": 9.988936515413823,
+        "population_median": 8.87787763629838,
+        "generation_best": 9.988936515413823,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5880588568734955,
+        "elapsed_seconds": 82.0067567000001
+      },
+      {
+        "generation": 44,
+        "best_score": 9.99350400931587,
+        "population_median": 8.56781620840821,
+        "generation_best": 9.99350400931587,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.564638196498452,
+        "elapsed_seconds": 84.5429289000001
+      },
+      {
+        "generation": 45,
+        "best_score": 10.012088720843282,
+        "population_median": 8.88017034887702,
+        "generation_best": 10.012088720843282,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5770014733878635,
+        "elapsed_seconds": 87.0146056000001
+      },
+      {
+        "generation": 46,
+        "best_score": 10.012088720843282,
+        "population_median": 8.50848895773991,
+        "generation_best": 10.012088720843282,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5770014733878635,
+        "elapsed_seconds": 89.51896440000019
+      },
+      {
+        "generation": 47,
+        "best_score": 10.012088720843282,
+        "population_median": 8.590204550628469,
+        "generation_best": 10.012088720843282,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5770014733878635,
+        "elapsed_seconds": 92.09905260000005
+      },
+      {
+        "generation": 48,
+        "best_score": 10.012088720843282,
+        "population_median": 8.583262611443082,
+        "generation_best": 10.012088720843282,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5770014733878635,
+        "elapsed_seconds": 94.60176960000013
+      },
+      {
+        "generation": 49,
+        "best_score": 10.012365356209838,
+        "population_median": 9.199500998082424,
+        "generation_best": 10.012365356209838,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5662079170279554,
+        "elapsed_seconds": 97.29647820000014
+      },
+      {
+        "generation": 50,
+        "best_score": 10.014103210226878,
+        "population_median": 9.076185724662817,
+        "generation_best": 10.014103210226878,
+        "elite_duration": 5.999999999999561,
+        "elite_speed": 0.5739552438941724,
+        "elapsed_seconds": 99.4150694
+      }
+    ],
+    "resume_from": null
+  },
+  "summary": {
+    "initial_nominal": {
+      "trials": 20,
+      "successes": 0,
+      "falls": 20,
+      "mean_distance_m": 0.5953006665134108,
+      "mean_speed_m_s": 0.3232033633486743,
+      "mean_duration_s": 1.8834999999999904,
+      "mean_alternations": 0.05,
+      "min_distance_m": 0.55208635103307,
+      "max_distance_m": 0.6287986527224256
+    },
+    "learned_nominal": {
+      "trials": 20,
+      "successes": 20,
+      "falls": 0,
+      "mean_distance_m": 7.096566017905917,
+      "mean_speed_m_s": 0.5913805014921264,
+      "mean_duration_s": 12.000000000000679,
+      "mean_alternations": 26.0,
+      "min_distance_m": 6.692829289094027,
+      "max_distance_m": 7.249685405252526
+    },
+    "learned_low_friction": {
+      "trials": 20,
+      "successes": 20,
+      "falls": 0,
+      "mean_distance_m": 8.928327167487188,
+      "mean_speed_m_s": 0.7440272639572238,
+      "mean_duration_s": 12.000000000000679,
+      "mean_alternations": 26.0,
+      "min_distance_m": 8.847362551474268,
+      "max_distance_m": 9.031262602192761
+    },
+    "learned_forward_push": {
+      "trials": 20,
+      "successes": 20,
+      "falls": 0,
+      "mean_distance_m": 7.757762824751846,
+      "mean_speed_m_s": 0.6464802353959508,
+      "mean_duration_s": 12.000000000000679,
+      "mean_alternations": 26.0,
+      "min_distance_m": 7.4854553301635525,
+      "max_distance_m": 7.927173775093037
+    },
+    "learned_backward_push": {
+      "trials": 20,
+      "successes": 0,
+      "falls": 20,
+      "mean_distance_m": 0.6161106584421527,
+      "mean_speed_m_s": 0.19818598738807414,
+      "mean_duration_s": 3.1079999999998793,
+      "mean_alternations": 5.3,
+      "min_distance_m": 0.49114132685701256,
+      "max_distance_m": 0.667882595358693
+    }
+  },
+  "trials": [
+    {
+      "score": 1.4853689753469481,
+      "duration": 1.6500000000000012,
+      "distance": 0.588750476174019,
+      "speed": 0.35681847040849607,
+      "fallen": true,
+      "energy": 119.00047710345534,
+      "touchdowns": [
+        4,
+        1
+      ],
+      "alternations": 2,
+      "qualified_touchdowns": [
+        3,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.14495009082898117,
+        0.04433512604446663
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 100,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.5170956379036218,
+      "duration": 1.7100000000000013,
+      "distance": 0.5815838666230193,
+      "speed": 0.3401075243409467,
+      "fallen": true,
+      "energy": 119.83833768422858,
+      "touchdowns": [
+        3,
+        1
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        3,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.12721461110208288,
+        0.08287140956744438
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 101,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.7927741406765385,
+      "duration": 2.0899999999999914,
+      "distance": 0.5928102526063694,
+      "speed": 0.2836412691896516,
+      "fallen": true,
+      "energy": 119.13031042097018,
+      "touchdowns": [
+        5,
+        0
+      ],
+      "alternations": 0,
+      "qualified_touchdowns": [
+        2,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.16381870514972924,
+        0.008985161318173292
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 102,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.8965124775385558,
+      "duration": 2.3699999999999606,
+      "distance": 0.6096512028914643,
+      "speed": 0.25723679446897657,
+      "fallen": true,
+      "energy": 130.0437270772092,
+      "touchdowns": [
+        5,
+        1
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        2,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.22086983181800401,
+        0.00927232657385093
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 103,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.4822043396853886,
+      "duration": 1.6500000000000012,
+      "distance": 0.6007616917019943,
+      "speed": 0.3640979949709054,
+      "fallen": true,
+      "energy": 119.44067286333684,
+      "touchdowns": [
+        5,
+        1
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        3,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.14784626884844834,
+        0.05116350217044996
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 104,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.5489479664177075,
+      "duration": 1.7300000000000013,
+      "distance": 0.5866271912291465,
+      "speed": 0.33909086198216537,
+      "fallen": true,
+      "energy": 117.77731833041662,
+      "touchdowns": [
+        5,
+        1
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        3,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.11999737049087764,
+        0.08210311847509194
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 105,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.4548175915460877,
+      "duration": 1.6100000000000012,
+      "distance": 0.6022242267255246,
+      "speed": 0.37405231473635037,
+      "fallen": true,
+      "energy": 117.00926999930161,
+      "touchdowns": [
+        3,
+        1
+      ],
+      "alternations": 2,
+      "qualified_touchdowns": [
+        3,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.16204968343189186,
+        0.024932456637651396
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 106,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.6721420305887502,
+      "duration": 1.8600000000000014,
+      "distance": 0.55208635103307,
+      "speed": 0.2968206188349837,
+      "fallen": true,
+      "energy": 115.31688081044102,
+      "touchdowns": [
+        7,
+        4
+      ],
+      "alternations": 4,
+      "qualified_touchdowns": [
+        3,
+        1
+      ],
+      "qualified_alternations": 1,
+      "peak_foot_clearance": [
+        0.08755292910216352,
+        0.008860078721994416
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 107,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.5193110019435008,
+      "duration": 1.7000000000000013,
+      "distance": 0.5824442764720984,
+      "speed": 0.3426142802777047,
+      "fallen": true,
+      "energy": 119.46129764884957,
+      "touchdowns": [
+        7,
+        1
+      ],
+      "alternations": 2,
+      "qualified_touchdowns": [
+        2,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.12922988932469243,
+        0.0741433819788685
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 108,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.6164559872464335,
+      "duration": 1.7900000000000014,
+      "distance": 0.5673446468626335,
+      "speed": 0.31695231668303525,
+      "fallen": true,
+      "energy": 116.1488606178596,
+      "touchdowns": [
+        4,
+        3
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        2,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.10172674947521428,
+        0.07293517651844536
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 109,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.4671507489068312,
+      "duration": 1.6300000000000012,
+      "distance": 0.5979697590756056,
+      "speed": 0.3668526129298191,
+      "fallen": true,
+      "energy": 118.64405785247021,
+      "touchdowns": [
+        4,
+        0
+      ],
+      "alternations": 0,
+      "qualified_touchdowns": [
+        3,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.1539384952527998,
+        0.02753374323307302
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 110,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.9460612521009077,
+      "duration": 2.439999999999953,
+      "distance": 0.6176467760444954,
+      "speed": 0.2531339246084046,
+      "fallen": true,
+      "energy": 141.575505441556,
+      "touchdowns": [
+        9,
+        1
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        4,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.19079520567733846,
+        0.008914210686249195
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 111,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.8333200814173598,
+      "duration": 2.229999999999976,
+      "distance": 0.5963927660359593,
+      "speed": 0.2674407022582806,
+      "fallen": true,
+      "energy": 119.74639204844466,
+      "touchdowns": [
+        6,
+        0
+      ],
+      "alternations": 0,
+      "qualified_touchdowns": [
+        2,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.27827043036788696,
+        0.008790026418038395
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 112,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.9337789134667867,
+      "duration": 2.419999999999955,
+      "distance": 0.6287986527224256,
+      "speed": 0.25983415401753607,
+      "fallen": true,
+      "energy": 137.67229529449682,
+      "touchdowns": [
+        10,
+        1
+      ],
+      "alternations": 2,
+      "qualified_touchdowns": [
+        4,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.20054826934986497,
+        0.008727639063877211
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 113,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.5265649890133186,
+      "duration": 1.7100000000000013,
+      "distance": 0.589852541726515,
+      "speed": 0.34494300685761087,
+      "fallen": true,
+      "energy": 120.05117635042326,
+      "touchdowns": [
+        4,
+        1
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        3,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.12780915593356418,
+        0.09154260358081268
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 114,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.6678128369527112,
+      "duration": 1.8800000000000014,
+      "distance": 0.5694899493439212,
+      "speed": 0.3029201858212344,
+      "fallen": true,
+      "energy": 112.92288057664994,
+      "touchdowns": [
+        5,
+        4
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        2,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.08530458277729366,
+        0.008599192135734957
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 115,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.9187846256196324,
+      "duration": 2.3999999999999573,
+      "distance": 0.6204031494241438,
+      "speed": 0.2585013122600645,
+      "fallen": true,
+      "energy": 133.8087991556716,
+      "touchdowns": [
+        8,
+        1
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        5,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.20866010483663922,
+        0.00900286977823686
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 116,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.4410324502584695,
+      "duration": 1.5900000000000012,
+      "distance": 0.6099108622908839,
+      "speed": 0.3835917372898638,
+      "fallen": true,
+      "energy": 114.61101573487227,
+      "touchdowns": [
+        4,
+        0
+      ],
+      "alternations": 0,
+      "qualified_touchdowns": [
+        3,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.17037685949320702,
+        0.019109838008063235
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 117,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.4762027189396123,
+      "duration": 1.6400000000000012,
+      "distance": 0.591798938183468,
+      "speed": 0.3608530110874802,
+      "fallen": true,
+      "energy": 118.80481973873155,
+      "touchdowns": [
+        5,
+        1
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        3,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.1495387802851509,
+        0.038228515147449474
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 118,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 1.428440176343774,
+      "duration": 1.5700000000000012,
+      "distance": 0.6194657531014609,
+      "speed": 0.3945641739499748,
+      "fallen": true,
+      "energy": 113.80072797227847,
+      "touchdowns": [
+        4,
+        1
+      ],
+      "alternations": 1,
+      "qualified_touchdowns": [
+        3,
+        0
+      ],
+      "qualified_alternations": 0,
+      "peak_foot_clearance": [
+        0.1796345161136071,
+        0.013630490355580435
+      ],
+      "method": "initial",
+      "condition": "nominal",
+      "seed": 119,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": false
+    },
+    {
+      "score": 20.263379736899363,
+      "duration": 12.000000000000677,
+      "distance": 7.0296508994894475,
+      "speed": 0.5858042416240876,
+      "fallen": false,
+      "energy": 1075.2048549944934,
+      "touchdowns": [
+        16,
+        15
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10432770465364555,
+        0.10114383358500173
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 100,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.35810137284951,
+      "duration": 12.000000000000677,
+      "distance": 7.086178079476136,
+      "speed": 0.5905148399563114,
+      "fallen": false,
+      "energy": 1079.9768959818614,
+      "touchdowns": [
+        18,
+        19
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10709383875403955,
+        0.10763558345798857
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 101,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.346905965237546,
+      "duration": 12.000000000000677,
+      "distance": 7.159338507495865,
+      "speed": 0.5966115422912884,
+      "fallen": false,
+      "energy": 1089.0461362319634,
+      "touchdowns": [
+        19,
+        19
+      ],
+      "alternations": 27,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10077724679015493,
+        0.11855255532606152
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 102,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.289169818016045,
+      "duration": 12.000000000000677,
+      "distance": 7.183617916484138,
+      "speed": 0.5986348263736444,
+      "fallen": false,
+      "energy": 1093.9270326498063,
+      "touchdowns": [
+        15,
+        19
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10064802290972866,
+        0.11226662264936062
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 103,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.32761840036821,
+      "duration": 12.000000000000677,
+      "distance": 7.249685405252526,
+      "speed": 0.6041404504376764,
+      "fallen": false,
+      "energy": 1101.4176537944873,
+      "touchdowns": [
+        16,
+        15
+      ],
+      "alternations": 27,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10698319354750752,
+        0.10557962266077783
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 104,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.381970630810557,
+      "duration": 12.000000000000677,
+      "distance": 7.131425938596217,
+      "speed": 0.5942854948829845,
+      "fallen": false,
+      "energy": 1082.7930572775256,
+      "touchdowns": [
+        14,
+        21
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10303896102156378,
+        0.10806571908077571
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 105,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.185272265441565,
+      "duration": 12.000000000000677,
+      "distance": 6.692829289094027,
+      "speed": 0.5577357740911374,
+      "fallen": false,
+      "energy": 1033.5153227459866,
+      "touchdowns": [
+        21,
+        19
+      ],
+      "alternations": 27,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10250990164500762,
+        0.09806551685686724
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 106,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.297214031312215,
+      "duration": 12.000000000000677,
+      "distance": 7.221572601628411,
+      "speed": 0.6017977168023336,
+      "fallen": false,
+      "energy": 1099.2857018967318,
+      "touchdowns": [
+        15,
+        18
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10528260557430177,
+        0.1137115856990818
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 107,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.35436022768595,
+      "duration": 12.000000000000677,
+      "distance": 7.112320644702944,
+      "speed": 0.5926933870585452,
+      "fallen": false,
+      "energy": 1083.2074662276307,
+      "touchdowns": [
+        16,
+        17
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10509194626765325,
+        0.10300307209197794
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 108,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.35881576993752,
+      "duration": 12.000000000000677,
+      "distance": 7.110225981449722,
+      "speed": 0.5925188317874435,
+      "fallen": false,
+      "energy": 1083.1686077372565,
+      "touchdowns": [
+        16,
+        18
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10301942535969004,
+        0.11084560670956331
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 109,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.326644963804696,
+      "duration": 12.000000000000677,
+      "distance": 7.203799533586126,
+      "speed": 0.6003166277988099,
+      "fallen": false,
+      "energy": 1095.192682973329,
+      "touchdowns": [
+        15,
+        17
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10706512106500782,
+        0.10027793142295396
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 110,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.307659620448312,
+      "duration": 12.000000000000677,
+      "distance": 7.129577356763868,
+      "speed": 0.5941314463969555,
+      "fallen": false,
+      "energy": 1087.2957130670457,
+      "touchdowns": [
+        17,
+        18
+      ],
+      "alternations": 27,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.09963586917652897,
+        0.11489961689005332
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 111,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.31919465244316,
+      "duration": 12.000000000000677,
+      "distance": 7.158715189784596,
+      "speed": 0.5965595991486827,
+      "fallen": false,
+      "energy": 1089.5996899504853,
+      "touchdowns": [
+        19,
+        17
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10111432617022972,
+        0.11914918720623464
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 112,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.29408800451196,
+      "duration": 12.000000000000677,
+      "distance": 7.19359332308339,
+      "speed": 0.5994661102569153,
+      "fallen": false,
+      "energy": 1094.2491398616985,
+      "touchdowns": [
+        15,
+        16
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10055576699444513,
+        0.11280790007063077
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 113,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.378909567741534,
+      "duration": 12.000000000000677,
+      "distance": 7.0183683989650065,
+      "speed": 0.5848640332470509,
+      "fallen": false,
+      "energy": 1072.8542669831681,
+      "touchdowns": [
+        20,
+        19
+      ],
+      "alternations": 27,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10195211258559152,
+        0.10706051051646334
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 114,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.330976721152663,
+      "duration": 12.000000000000677,
+      "distance": 7.1397788442477355,
+      "speed": 0.5949815703539444,
+      "fallen": false,
+      "energy": 1087.2569211303264,
+      "touchdowns": [
+        18,
+        20
+      ],
+      "alternations": 27,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10386795225662793,
+        0.11117507897122718
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 115,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.318383129158168,
+      "duration": 12.000000000000677,
+      "distance": 7.148026557547361,
+      "speed": 0.5956688797955798,
+      "fallen": false,
+      "energy": 1086.8214165618374,
+      "touchdowns": [
+        14,
+        16
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.09910520790531255,
+        0.1121269877026742
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 116,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.302828611829685,
+      "duration": 12.000000000000677,
+      "distance": 6.9476746934569995,
+      "speed": 0.578972891121384,
+      "fallen": false,
+      "energy": 1062.1087972204195,
+      "touchdowns": [
+        19,
+        18
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.09994446631699568,
+        0.09965545330965864
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 117,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.27613216580156,
+      "duration": 12.000000000000677,
+      "distance": 7.139221093982262,
+      "speed": 0.594935091165155,
+      "fallen": false,
+      "energy": 1086.197186687556,
+      "touchdowns": [
+        18,
+        16
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10007021529712186,
+        0.09903300542390092
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 118,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 20.024777302443386,
+      "duration": 12.000000000000677,
+      "distance": 6.875720103031578,
+      "speed": 0.5729766752525992,
+      "fallen": false,
+      "energy": 1058.4087111301408,
+      "touchdowns": [
+        17,
+        17
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.1015235499353688,
+        0.1002962845727621
+      ],
+      "method": "learned",
+      "condition": "nominal",
+      "seed": 119,
+      "friction": 0.9,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.068975767176877,
+      "duration": 12.000000000000677,
+      "distance": 8.915196660560122,
+      "speed": 0.742933055046635,
+      "fallen": false,
+      "energy": 1276.7027769457945,
+      "touchdowns": [
+        36,
+        30
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11139650511539036,
+        0.11005451589733933
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 200,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 17.995096958616013,
+      "duration": 12.000000000000677,
+      "distance": 8.961664207749322,
+      "speed": 0.7468053506457347,
+      "fallen": false,
+      "energy": 1280.2421456176605,
+      "touchdowns": [
+        33,
+        40
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11599892698484099,
+        0.11162549099231116
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 201,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.16280477001215,
+      "duration": 12.000000000000677,
+      "distance": 8.847362551474268,
+      "speed": 0.7372802126228141,
+      "fallen": false,
+      "energy": 1268.902804757338,
+      "touchdowns": [
+        30,
+        35
+      ],
+      "alternations": 30,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11286104584840456,
+        0.11046516585473738
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 202,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 17.976095200368828,
+      "duration": 12.000000000000677,
+      "distance": 8.963311099392648,
+      "speed": 0.7469425916160118,
+      "fallen": false,
+      "energy": 1284.2451622584997,
+      "touchdowns": [
+        37,
+        36
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11281998949080468,
+        0.11310705536287134
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 203,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 17.987643840789016,
+      "duration": 12.000000000000677,
+      "distance": 8.964142719835154,
+      "speed": 0.7470118933195541,
+      "fallen": false,
+      "energy": 1281.4638503701049,
+      "touchdowns": [
+        32,
+        29
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10970237620097151,
+        0.11378692290622086
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 204,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 17.972911704146483,
+      "duration": 12.000000000000677,
+      "distance": 8.96460585268585,
+      "speed": 0.7470504877237787,
+      "fallen": false,
+      "energy": 1282.8774985014456,
+      "touchdowns": [
+        33,
+        27
+      ],
+      "alternations": 29,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11403198239113645,
+        0.1139406996061072
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 205,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.046360358889892,
+      "duration": 12.000000000000677,
+      "distance": 8.934756362788173,
+      "speed": 0.7445630302323057,
+      "fallen": false,
+      "energy": 1277.8391215701017,
+      "touchdowns": [
+        36,
+        32
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.1170000627432573,
+        0.1068868257235183
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 206,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.135198079112666,
+      "duration": 12.000000000000677,
+      "distance": 8.853513063016962,
+      "speed": 0.7377927552513719,
+      "fallen": false,
+      "energy": 1266.9492067695285,
+      "touchdowns": [
+        33,
+        36
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11844246091233658,
+        0.1106652850516617
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 207,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.055133621482927,
+      "duration": 12.000000000000677,
+      "distance": 8.924557232606642,
+      "speed": 0.7437131027171782,
+      "fallen": false,
+      "energy": 1276.1236774320646,
+      "touchdowns": [
+        36,
+        40
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11534295738154392,
+        0.10912633434430578
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 208,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 17.96640107127781,
+      "duration": 12.000000000000677,
+      "distance": 8.942171510556493,
+      "speed": 0.7451809592129991,
+      "fallen": false,
+      "energy": 1280.960160218409,
+      "touchdowns": [
+        34,
+        36
+      ],
+      "alternations": 30,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11261346897718566,
+        0.1171114481313222
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 209,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.139457103425475,
+      "duration": 12.000000000000677,
+      "distance": 8.88642690832025,
+      "speed": 0.7405355756933123,
+      "fallen": false,
+      "energy": 1271.7400180665695,
+      "touchdowns": [
+        36,
+        35
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11120185548553158,
+        0.11147425062757002
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 210,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 17.934740969258854,
+      "duration": 12.000000000000677,
+      "distance": 8.982697533715369,
+      "speed": 0.7485581278095719,
+      "fallen": false,
+      "energy": 1284.0748688356553,
+      "touchdowns": [
+        38,
+        38
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11659233874042349,
+        0.11425752366955022
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 211,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 17.99065568038432,
+      "duration": 12.000000000000677,
+      "distance": 8.934412421228785,
+      "speed": 0.7445343684356901,
+      "fallen": false,
+      "energy": 1280.4893792776977,
+      "touchdowns": [
+        33,
+        33
+      ],
+      "alternations": 30,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10842535625413555,
+        0.11217445210358236
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 212,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.112644037244262,
+      "duration": 12.000000000000677,
+      "distance": 8.8909595409705,
+      "speed": 0.7409132950808331,
+      "fallen": false,
+      "energy": 1274.1639443168856,
+      "touchdowns": [
+        33,
+        28
+      ],
+      "alternations": 31,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11193256854265199,
+        0.10892854451178852
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 213,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 17.868411538999602,
+      "duration": 12.000000000000677,
+      "distance": 8.985926159449887,
+      "speed": 0.7488271799541151,
+      "fallen": false,
+      "energy": 1285.7320495773406,
+      "touchdowns": [
+        42,
+        29
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.10924785500715206,
+        0.11272591086003761
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 214,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.206350792803867,
+      "duration": 12.000000000000677,
+      "distance": 8.873376603321125,
+      "speed": 0.7394480502767187,
+      "fallen": false,
+      "energy": 1268.8320579509816,
+      "touchdowns": [
+        30,
+        38
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11462564366865499,
+        0.10837594768774166
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 215,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 17.869449810248334,
+      "duration": 12.000000000000677,
+      "distance": 9.031262602192761,
+      "speed": 0.7526052168493543,
+      "fallen": false,
+      "energy": 1291.5750177772225,
+      "touchdowns": [
+        36,
+        26
+      ],
+      "alternations": 27,
+      "qualified_touchdowns": [
+        15,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11701193313865643,
+        0.1069651987349436
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 216,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.02267940759611,
+      "duration": 12.000000000000677,
+      "distance": 8.94839757337824,
+      "speed": 0.745699797781478,
+      "fallen": false,
+      "energy": 1279.6467525635896,
+      "touchdowns": [
+        37,
+        38
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11798826973934694,
+        0.10627927864853509
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 217,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.174745515788366,
+      "duration": 12.000000000000677,
+      "distance": 8.87251902813311,
+      "speed": 0.7393765856777175,
+      "fallen": false,
+      "energy": 1268.9646302086728,
+      "touchdowns": [
+        32,
+        41
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11207981249027876,
+        0.10702640153438316
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 218,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 18.142607775030353,
+      "duration": 12.000000000000677,
+      "distance": 8.889283718368134,
+      "speed": 0.7407736431973027,
+      "fallen": false,
+      "energy": 1273.9209696822925,
+      "touchdowns": [
+        34,
+        30
+      ],
+      "alternations": 27,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11163073854593417,
+        0.1107437247791527
+      ],
+      "method": "learned",
+      "condition": "low_friction",
+      "seed": 219,
+      "friction": 0.35,
+      "push_N": 0,
+      "success": true
+    },
+    {
+      "score": 19.22843302365723,
+      "duration": 12.000000000000677,
+      "distance": 7.797834329115145,
+      "speed": 0.6498195274262254,
+      "fallen": false,
+      "energy": 1173.695412131352,
+      "touchdowns": [
+        16,
+        20
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11629973188787276,
+        0.1884164837922049
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 300,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.215918656210285,
+      "duration": 12.000000000000677,
+      "distance": 7.781557710615528,
+      "speed": 0.6484631425512574,
+      "fallen": false,
+      "energy": 1175.1298557242683,
+      "touchdowns": [
+        19,
+        18
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.12225590195452926,
+        0.18923407243056
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 301,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.30662906053901,
+      "duration": 12.000000000000677,
+      "distance": 7.62958114318795,
+      "speed": 0.63579842859896,
+      "fallen": false,
+      "energy": 1152.9951977425949,
+      "touchdowns": [
+        18,
+        20
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11965737339783342,
+        0.19197011111724108
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 302,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.198120895102267,
+      "duration": 12.000000000000677,
+      "distance": 7.853153374321821,
+      "speed": 0.6544294478601149,
+      "fallen": false,
+      "energy": 1184.5089089322396,
+      "touchdowns": [
+        16,
+        17
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.12406282522752982,
+        0.18550832356238584
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 303,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.281947288402705,
+      "duration": 12.000000000000677,
+      "distance": 7.734237652341729,
+      "speed": 0.6445198043617745,
+      "fallen": false,
+      "energy": 1167.5186312230924,
+      "touchdowns": [
+        20,
+        18
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.1285475193696658,
+        0.1811953202223102
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 304,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.212808844726982,
+      "duration": 12.000000000000677,
+      "distance": 7.866694903743749,
+      "speed": 0.6555579086452754,
+      "fallen": false,
+      "energy": 1184.7923092626324,
+      "touchdowns": [
+        16,
+        19
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.12057723383334955,
+        0.18825116557486177
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 305,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.23104709839683,
+      "duration": 12.000000000000677,
+      "distance": 7.6510859801909,
+      "speed": 0.6375904983492057,
+      "fallen": false,
+      "energy": 1158.255379912625,
+      "touchdowns": [
+        19,
+        23
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.12029166727920756,
+        0.1856831522811754
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 306,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.276332711683636,
+      "duration": 12.000000000000677,
+      "distance": 7.766978910054969,
+      "speed": 0.6472482425045443,
+      "fallen": false,
+      "energy": 1171.4512942798451,
+      "touchdowns": [
+        20,
+        19
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.12391151417285359,
+        0.18501029622426285
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 307,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.296401241272896,
+      "duration": 12.000000000000677,
+      "distance": 7.651368691517741,
+      "speed": 0.6376140576264424,
+      "fallen": false,
+      "energy": 1155.798525038577,
+      "touchdowns": [
+        20,
+        24
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11865459239703037,
+        0.18900739464277394
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 308,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.199959566311264,
+      "duration": 12.000000000000677,
+      "distance": 7.861659187827215,
+      "speed": 0.655138265652231,
+      "fallen": false,
+      "energy": 1185.249695521043,
+      "touchdowns": [
+        15,
+        17
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.12346344883457114,
+        0.18889393052071868
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 309,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.22675543524959,
+      "duration": 12.000000000000677,
+      "distance": 7.796537799992121,
+      "speed": 0.6497114833326402,
+      "fallen": false,
+      "energy": 1176.9617566553507,
+      "touchdowns": [
+        17,
+        20
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.1206508812478022,
+        0.17938718246407348
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 310,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.233881063981727,
+      "duration": 12.000000000000677,
+      "distance": 7.798349346380873,
+      "speed": 0.6498624455317028,
+      "fallen": false,
+      "energy": 1175.5194839635303,
+      "touchdowns": [
+        16,
+        20
+      ],
+      "alternations": 29,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.1230658977182065,
+        0.1881023735673675
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 311,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.26671429921687,
+      "duration": 12.000000000000677,
+      "distance": 7.750678586597988,
+      "speed": 0.6458898822164626,
+      "fallen": false,
+      "energy": 1167.444220732524,
+      "touchdowns": [
+        17,
+        21
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        14,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.12483208557734136,
+        0.19020556259395577
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 312,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.198430778836606,
+      "duration": 12.000000000000677,
+      "distance": 7.927173775093037,
+      "speed": 0.6605978145910492,
+      "fallen": false,
+      "energy": 1191.262288776799,
+      "touchdowns": [
+        15,
+        20
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11743626878196088,
+        0.19069396243060419
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 313,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.209132124832237,
+      "duration": 12.000000000000677,
+      "distance": 7.884126177087923,
+      "speed": 0.6570105147572899,
+      "fallen": false,
+      "energy": 1184.1579186088168,
+      "touchdowns": [
+        15,
+        20
+      ],
+      "alternations": 28,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11682595245947347,
+        0.19054838373337235
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 314,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.283783375997274,
+      "duration": 12.000000000000677,
+      "distance": 7.765409309683357,
+      "speed": 0.6471174424735766,
+      "fallen": false,
+      "energy": 1169.2978650751004,
+      "touchdowns": [
+        18,
+        21
+      ],
+      "alternations": 29,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.12131014365006954,
+        0.1870187585354087
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 315,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.18501600907973,
+      "duration": 12.000000000000677,
+      "distance": 7.634882599287013,
+      "speed": 0.6362402166072152,
+      "fallen": false,
+      "energy": 1154.164058768778,
+      "touchdowns": [
+        18,
+        22
+      ],
+      "alternations": 29,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11670189670332644,
+        0.19161723810424225
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 316,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.27660152898745,
+      "duration": 12.000000000000677,
+      "distance": 7.7668575353367775,
+      "speed": 0.6472381279446949,
+      "fallen": false,
+      "energy": 1169.9555084884742,
+      "touchdowns": [
+        20,
+        17
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.12244284891802394,
+        0.1856976664432534
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 317,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.13350724031405,
+      "duration": 12.000000000000677,
+      "distance": 7.4854553301635525,
+      "speed": 0.6237879441802608,
+      "fallen": false,
+      "energy": 1136.6174506856535,
+      "touchdowns": [
+        21,
+        21
+      ],
+      "alternations": 27,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.11218028991035302,
+        0.19274355585578642
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 318,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 19.21073638460986,
+      "duration": 12.000000000000677,
+      "distance": 7.751634152497537,
+      "speed": 0.6459695127080917,
+      "fallen": false,
+      "energy": 1170.314344018942,
+      "touchdowns": [
+        17,
+        20
+      ],
+      "alternations": 26,
+      "qualified_touchdowns": [
+        13,
+        14
+      ],
+      "qualified_alternations": 26,
+      "peak_foot_clearance": [
+        0.12370721815463165,
+        0.18950282851207584
+      ],
+      "method": "learned",
+      "condition": "forward_push",
+      "seed": 319,
+      "friction": 0.9,
+      "push_N": 80,
+      "success": true
+    },
+    {
+      "score": 3.5610202980014103,
+      "duration": 3.0799999999998824,
+      "distance": 0.5983390511303424,
+      "speed": 0.19426592569167703,
+      "fallen": true,
+      "energy": 239.0836740976394,
+      "touchdowns": [
+        6,
+        3
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        3,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.09904165688913,
+        0.13029102144684307
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 400,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.634302893532189,
+      "duration": 3.09999999999988,
+      "distance": 0.6469585449774214,
+      "speed": 0.20869630483143434,
+      "fallen": true,
+      "energy": 245.23977291751225,
+      "touchdowns": [
+        4,
+        5
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        3,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.10735159084907434,
+        0.13231971453164748
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 401,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.6031682128086104,
+      "duration": 3.119999999999878,
+      "distance": 0.6055233928353831,
+      "speed": 0.19407801052416884,
+      "fallen": true,
+      "energy": 242.20672437101032,
+      "touchdowns": [
+        4,
+        3
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        4,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.10314857431285332,
+        0.12254472695326622
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 402,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.622669065302265,
+      "duration": 3.109999999999879,
+      "distance": 0.667882595358693,
+      "speed": 0.21475324609605112,
+      "fallen": true,
+      "energy": 249.0077370923242,
+      "touchdowns": [
+        6,
+        4
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        4,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.09957543337915006,
+        0.1342661672073711
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 403,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.61426331906746,
+      "duration": 3.109999999999879,
+      "distance": 0.6295650637413416,
+      "speed": 0.20243249637986047,
+      "fallen": true,
+      "energy": 244.2099201951311,
+      "touchdowns": [
+        4,
+        3
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        3,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.1033549988822472,
+        0.1273985794193333
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 404,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.4899352246280637,
+      "duration": 3.0599999999998846,
+      "distance": 0.49114132685701256,
+      "speed": 0.16050370158726507,
+      "fallen": true,
+      "energy": 225.07183629077824,
+      "touchdowns": [
+        8,
+        4
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        5,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.0973627919525289,
+        0.12706923407152337
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 405,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.600084470600076,
+      "duration": 3.129999999999877,
+      "distance": 0.6173398405076238,
+      "speed": 0.19723317588103773,
+      "fallen": true,
+      "energy": 243.87322703666104,
+      "touchdowns": [
+        4,
+        4
+      ],
+      "alternations": 6,
+      "qualified_touchdowns": [
+        3,
+        4
+      ],
+      "qualified_alternations": 6,
+      "peak_foot_clearance": [
+        0.09670119812126013,
+        0.13133732218111444
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 406,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.6161737407228567,
+      "duration": 3.119999999999878,
+      "distance": 0.643838794061143,
+      "speed": 0.20635858784011799,
+      "fallen": true,
+      "energy": 246.828099496879,
+      "touchdowns": [
+        6,
+        6
+      ],
+      "alternations": 6,
+      "qualified_touchdowns": [
+        4,
+        4
+      ],
+      "qualified_alternations": 6,
+      "peak_foot_clearance": [
+        0.09766015680467854,
+        0.13458155873867908
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 407,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.584262780451845,
+      "duration": 3.0799999999998824,
+      "distance": 0.6234939152649391,
+      "speed": 0.2024330893717412,
+      "fallen": true,
+      "energy": 242.97491320267685,
+      "touchdowns": [
+        4,
+        4
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        4,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.1053719486559423,
+        0.12840735013971355
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 408,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.579417889884267,
+      "duration": 3.0699999999998835,
+      "distance": 0.6034941834710237,
+      "speed": 0.19657790992542234,
+      "fallen": true,
+      "energy": 239.9883068830113,
+      "touchdowns": [
+        5,
+        5
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        3,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.10243536314667998,
+        0.12807522350683487
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 409,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.6601615535983956,
+      "duration": 3.1499999999998747,
+      "distance": 0.6458346805002316,
+      "speed": 0.2050268826984944,
+      "fallen": true,
+      "energy": 249.89080453971278,
+      "touchdowns": [
+        5,
+        5
+      ],
+      "alternations": 6,
+      "qualified_touchdowns": [
+        3,
+        4
+      ],
+      "qualified_alternations": 6,
+      "peak_foot_clearance": [
+        0.09947345528853765,
+        0.12851539859951458
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 410,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.62316300847315,
+      "duration": 3.139999999999876,
+      "distance": 0.6244329806104292,
+      "speed": 0.19886400656383882,
+      "fallen": true,
+      "energy": 246.33894260862292,
+      "touchdowns": [
+        4,
+        4
+      ],
+      "alternations": 6,
+      "qualified_touchdowns": [
+        3,
+        4
+      ],
+      "qualified_alternations": 6,
+      "peak_foot_clearance": [
+        0.09642012425515092,
+        0.13089301365334252
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 411,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.6603372528638842,
+      "duration": 3.139999999999876,
+      "distance": 0.6559710295195238,
+      "speed": 0.20890797118457,
+      "fallen": true,
+      "energy": 249.12770676872114,
+      "touchdowns": [
+        5,
+        5
+      ],
+      "alternations": 6,
+      "qualified_touchdowns": [
+        3,
+        4
+      ],
+      "qualified_alternations": 6,
+      "peak_foot_clearance": [
+        0.10300422209616122,
+        0.1309033439922354
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 412,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.5622830930333116,
+      "duration": 3.09999999999988,
+      "distance": 0.6107680785527756,
+      "speed": 0.1970219608234836,
+      "fallen": true,
+      "energy": 242.74548584966502,
+      "touchdowns": [
+        4,
+        4
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        3,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.10282856135948014,
+        0.1311995391825804
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 413,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.6105789757992643,
+      "duration": 3.09999999999988,
+      "distance": 0.6286987161438327,
+      "speed": 0.2028060374657603,
+      "fallen": true,
+      "energy": 242.79385904898763,
+      "touchdowns": [
+        4,
+        5
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        4,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.10415138435541506,
+        0.12691352249793852
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 414,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.67242985772629,
+      "duration": 3.129999999999877,
+      "distance": 0.6452026636754106,
+      "speed": 0.20613503631803065,
+      "fallen": true,
+      "energy": 246.17184793754524,
+      "touchdowns": [
+        4,
+        5
+      ],
+      "alternations": 6,
+      "qualified_touchdowns": [
+        4,
+        4
+      ],
+      "qualified_alternations": 6,
+      "peak_foot_clearance": [
+        0.1052329880176015,
+        0.1318599480293261
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 415,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.5842715174062185,
+      "duration": 3.119999999999878,
+      "distance": 0.5959464465251632,
+      "speed": 0.19100847645038027,
+      "fallen": true,
+      "energy": 241.3712457641593,
+      "touchdowns": [
+        6,
+        3
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        3,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.09986353847615878,
+        0.12549483229372638
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 416,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.6486493963673543,
+      "duration": 3.119999999999878,
+      "distance": 0.6276979482645307,
+      "speed": 0.2011852398283831,
+      "fallen": true,
+      "energy": 242.6974821818432,
+      "touchdowns": [
+        5,
+        4
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        3,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.10664519592511604,
+        0.12807336839497696
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 417,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.581979404217263,
+      "duration": 3.0899999999998813,
+      "distance": 0.6198376853138255,
+      "speed": 0.2005947201662943,
+      "fallen": true,
+      "energy": 243.14412077361652,
+      "touchdowns": [
+        4,
+        5
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        3,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.10425486844113788,
+        0.13231796413248195
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 418,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    },
+    {
+      "score": 3.5603621478256686,
+      "duration": 3.0899999999998813,
+      "distance": 0.5402462315324071,
+      "speed": 0.1748369681334718,
+      "fallen": true,
+      "energy": 230.48755278131586,
+      "touchdowns": [
+        7,
+        6
+      ],
+      "alternations": 5,
+      "qualified_touchdowns": [
+        3,
+        3
+      ],
+      "qualified_alternations": 5,
+      "peak_foot_clearance": [
+        0.10009669916861688,
+        0.12417715118850126
+      ],
+      "method": "learned",
+      "condition": "backward_push",
+      "seed": 419,
+      "friction": 0.9,
+      "push_N": -80,
+      "success": false
+    }
+  ],
+  "hash_note": "Hashes refer to the LF-normalized published artifacts. Parameters and physics model were not changed after evaluation."
+}

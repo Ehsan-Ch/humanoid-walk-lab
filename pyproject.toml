@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "humanoid-walk-lab"
+version = "1.0.0"
+description = "MuJoCo planar humanoid gait learning with reproducible evaluation and visual replays"
+requires-python = ">=3.11"
+dependencies = ["mujoco==3.3.7", "numpy>=2.0,<3"]
+
+[project.optional-dependencies]
+render = ["pillow>=11,<13", "imageio>=2.35,<3", "imageio-ffmpeg==0.6.0"]
+
+[project.scripts]
+walk-train = "walk_lab.train:main"
+walk-evaluate = "walk_lab.evaluate:main"
+walk-render = "walk_lab.render:main"
+
+[tool.setuptools.packages.find]
+include = ["walk_lab*"]
+
+[tool.setuptools.package-data]
+walk_lab = ["*.xml", "*.html"]
